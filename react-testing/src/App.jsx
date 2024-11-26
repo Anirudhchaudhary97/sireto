@@ -1,12 +1,16 @@
 import React from 'react'
 import Counter from './Counter'
+import ApiFetch from './components/ApiFetch'
+import LoginForm from './components/LoginForm'
 
 const App = () => {
   return (
-    <div>
+     <div>
       <h1>First React Test Case</h1>
       <Counter/>
-    </div>
+      <ApiFetch/>
+      <LoginForm/>
+     </div>
   )
 }
 
